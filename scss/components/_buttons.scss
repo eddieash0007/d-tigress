@@ -1,0 +1,23 @@
+@use "../custom" as *;
+.btn-rounded{
+    position: relative;
+    padding: 0.4rem 1.2rem;
+    font-weight: 500;
+    margin: 0;
+    border: 0.1rem solid rgba($white, 0.1);
+    border-radius: 6px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: $white;
+}
+
+// /* Button */
+
+// position: absolute;
+// width: 181px;
+// height: 42px;
+// left: 1169px;
+// top: 43px;
+
+// background: #FFFFFF;
+// box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+// border-radius: 6px;

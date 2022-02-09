@@ -11118,5 +11118,33 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.btn-rounded {
+  position: relative;
+  padding: 0.4rem 1.2rem;
+  font-weight: 500;
+  margin: 0;
+  border: 0.1rem solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #fff;
+}
+
+.menu {
+  background-color: #17431B;
+}
+.menu .d-logo {
+  font-family: "Playfair Display", serif;
+}
+.menu li {
+  padding: 0 0.7rem;
+  font-family: "Raleway", sans-serif;
+}
+.menu li a {
+  color: #fff !important;
+}
+.menu .login {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
 
 /*# sourceMappingURL=style.css.map */

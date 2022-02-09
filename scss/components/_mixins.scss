@@ -1,0 +1,8 @@
+@use '../custom' as *;
+
+// Background Mixin
+
+@mixin green-bg {
+    background-color: $primary;
+}
+
