@@ -1,0 +1,8 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+
+.banner{
+    background-color: $light-green;
+    padding: 30px 30px;
+}
