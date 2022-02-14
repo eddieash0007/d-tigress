@@ -1,4 +1,5 @@
 @use "../custom" as *;
+@use '../components/mixins' as *;
 .btn-rounded{
     position: relative;
     padding: 0.4rem 1.2rem;
@@ -8,7 +9,50 @@
     border-radius: 6px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background: $white;
+
+    i{
+        color: black;
+        font-size: 1rem;
+    }
+    
+    &:hover{
+        background-color: $light-green;
+        color: white;
+    }
+
+    &--visit{
+        background-color: $light-green;
+        padding: 0.4rem 1.2rem;
+        font-weight: 500;
+        margin-left: 1rem;
+        border: 0.1rem solid rgba($white, 0.1);
+        border-radius: 6px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        color: white;
+    }
+
+
+
+   
 }
+
+.btn-rounded--news{
+    background-color: $light-green;
+    padding: 0.4rem 1.2rem;
+    font-weight: 500;
+    margin-left: 1rem;
+    border: 0.1rem solid rgba($white, 0.1);
+    background-color: $white;   
+    border-radius: 6px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+
+    }
+
+// }&:hover{
+//     background-color: $gray-300;
+// }
+
 
 // /* Button */
 

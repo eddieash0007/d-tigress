@@ -1,0 +1,41 @@
+@use "../custom" as *;
+@use '../components/mixins' as *;
+
+.display-2{
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+    color: white;
+
+    &--intro{
+        display: inline-block;
+        font-weight: 200;
+        font-family: 'Raleway', sans-serif;
+        font-size: 24px;
+    }
+    &--name{
+        font-family: 'Playfair Display', serif;
+        font-size: 72px;
+        text-transform: uppercase;
+    }
+
+    &--description {
+        font-size: 1rem;
+        display: block;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 100;
+        font-size: 12px;
+        line-height: 16px;
+
+    
+width: 396px;
+height: 56px;
+left: 695px;
+
+       
+    }
+}
+
+/* Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. */
+
+
+

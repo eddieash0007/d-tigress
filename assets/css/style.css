@@ -11128,6 +11128,81 @@ textarea.form-control-lg {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background: #fff;
 }
+.btn-rounded i {
+  color: black;
+  font-size: 1rem;
+}
+.btn-rounded:hover {
+  background-color: #B1D2A8;
+  color: white;
+}
+.btn-rounded--visit {
+  background-color: #B1D2A8;
+  padding: 0.4rem 1.2rem;
+  font-weight: 500;
+  margin-left: 1rem;
+  border: 0.1rem solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: white;
+}
+
+.btn-rounded--news {
+  background-color: #B1D2A8;
+  padding: 0.4rem 1.2rem;
+  font-weight: 500;
+  margin-left: 1rem;
+  border: 0.1rem solid rgba(255, 255, 255, 0.1);
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.display-2 {
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  color: white;
+}
+.display-2--intro {
+  display: inline-block;
+  font-weight: 200;
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+}
+.display-2--name {
+  font-family: "Playfair Display", serif;
+  font-size: 72px;
+  text-transform: uppercase;
+}
+.display-2--description {
+  font-size: 1rem;
+  display: block;
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 16px;
+  width: 396px;
+  height: 56px;
+  left: 695px;
+}
+
+/* Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. */
+.intro-section {
+  background-color: #17431B;
+  padding: 5rem 0 0 0;
+  width: 100%;
+  height: 100%;
+}
+.intro-section .intros {
+  position: relative;
+}
+.intro-section .intros .girl {
+  position: absolute;
+  top: 157px;
+  width: 962px;
+  height: 642px;
+  left: -105px;
+}
 
 .menu {
   background-color: #17431B;

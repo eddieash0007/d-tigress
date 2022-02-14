@@ -7,15 +7,16 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;500&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
-    <title>D'Tigress'</title>
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <title>D'Tigress</title>
 </head>
 <body>
     <!-- Navbar Section  -->
-    <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top menu">
+    <nav class="navbar navbar-expand-lg navbar-dark menu fixed-top menu">
         <div class="container">
           <a class="navbar-brand d-logo" href="#">
             D'Tigress
@@ -49,10 +50,52 @@
               </li>
     
             </ul>
-            <button type="button" class="btn-rounded login">Login/Register</button>
+            <button type="button" class="btn-rounded login">Login/Register
+             
+            </button>
           </div>
         </div>
       </nav>
+
+      <!-- Intro Section  -->
+      <section class="intro-section" id="home">
+        
+          <div class="row">
+            <div class="col-md-6 intros">
+              <div class="ball">
+                <!-- <svg width="200" height="200" viewBox="0 0 336 345" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g opacity="0.2">
+                  <path d="M168 0C134.773 0 102.292 10.1169 74.6643 29.0715C47.0368 48.026 25.5038 74.9668 12.7883 106.487C0.0727912 138.007 -3.25417 172.691 3.22815 206.153C9.71046 239.615 25.7109 270.351 49.2061 294.476C72.7013 318.6 102.636 335.029 135.225 341.685C167.814 348.341 201.593 344.925 232.291 331.869C262.989 318.813 289.227 296.703 307.687 268.336C326.147 239.968 336 206.617 336 172.5C335.949 126.766 318.233 82.9206 286.738 50.5819C255.243 18.2433 212.541 0.0523975 168 0ZM326.076 172.5C326.064 178.732 325.705 184.958 325.001 191.147C287.511 153.061 248.527 125.487 208.422 108.74C209.152 104.859 210.238 101.057 211.666 97.3861C220.03 75.2304 239.028 55.8026 263.997 43.6796C283.294 58.8055 298.934 78.2971 309.701 100.639C320.468 122.981 326.071 147.572 326.076 172.5ZM254.844 36.9747C230.014 50.3205 211.124 70.6013 202.468 93.5314C201.003 97.2652 199.864 101.125 199.065 105.066C180.725 98.1503 161.662 93.4507 142.263 91.0625C151.87 62.582 165.253 35.5961 182.033 10.8653C208.04 13.2174 233.065 22.1912 254.844 36.9747ZM170.478 10.2539C154.345 35.0186 141.446 61.85 132.112 90.061C131.397 90.0057 130.68 89.9329 129.963 89.8834C114.835 88.8397 99.6433 89.3322 84.6097 91.3537C88.1006 73.3093 86.7181 54.6283 80.6117 37.3328C106.483 19.6047 136.896 10.1583 168 10.1899C168.831 10.1899 169.65 10.2423 170.478 10.2539ZM72.301 43.4438C77.3483 59.475 78.0114 76.6215 74.2178 93.0132C56.3146 96.2355 38.8802 101.769 22.3292 109.483C33.116 83.382 50.3388 60.6166 72.301 43.4292V43.4438ZM17.3303 123.417C34.2707 114.223 52.4435 107.654 71.2576 103.925C71.1725 104.187 71.1101 104.44 71.0222 104.702C67.8489 113.284 64.1156 121.636 59.8478 129.703C46.2093 157.215 28.0908 193.925 30.0416 251.602C19.4928 232.266 12.9218 210.913 10.7354 188.864C8.54892 166.814 10.7935 144.539 17.3303 123.417ZM41.1792 269.278C34.411 203.576 54.1939 163.571 68.683 134.326C73.1719 125.834 77.0883 117.037 80.4047 107.995C81.0795 105.957 81.675 103.954 82.2222 101.963C97.6774 99.6237 113.331 98.9757 128.919 100.03C109.774 162.889 104.307 237.185 112.165 324.326C83.88 313.292 59.2526 294.194 41.1792 269.278ZM122.449 327.91C114.01 239.171 119.437 164.057 139.05 100.953C158.998 103.229 178.593 108.044 197.384 115.288C195.301 132.994 196.523 150.946 200.985 168.182C203.637 177.431 206.94 186.469 210.866 195.226C222.435 222.969 236.771 257.411 231.996 320.862C197.482 336.612 158.607 339.113 122.449 327.91ZM242.289 315.723C245.901 253.419 231.018 217.644 219.999 191.214C216.273 182.915 213.129 174.353 210.591 165.594C206.656 150.464 205.398 134.732 206.877 119.146C246.825 136.241 285.702 164.476 323.13 203.62C318.585 227.288 308.975 249.624 294.994 269.011C281.013 288.399 263.01 304.354 242.289 315.723Z" fill="white"/>
+                  <path d="M274.961 78.1709C288.97 94.9093 299.086 114.702 304.541 136.049C304.695 136.707 304.976 137.327 305.366 137.872C305.756 138.417 306.248 138.877 306.813 139.225C307.379 139.573 308.006 139.802 308.658 139.899C309.31 139.995 309.975 139.957 310.612 139.787C311.25 139.617 311.849 139.318 312.373 138.907C312.897 138.497 313.336 137.984 313.665 137.398C313.994 136.811 314.206 136.163 314.288 135.492C314.37 134.821 314.321 134.139 314.144 133.487C308.306 110.634 297.479 89.4445 282.484 71.5242C281.625 70.4999 280.406 69.8677 279.094 69.7667C277.781 69.6657 276.483 70.1042 275.486 70.9856C274.488 71.867 273.873 73.1192 273.774 74.4667C273.676 75.8142 274.103 77.1466 274.961 78.1709Z" fill="white"/>
+                  </g>
+                </svg>
+                <img src="./images/intro/ambitious_vick_225636309_577615846580580_426050156510174069_n-removebg-preview 1.png" alt=""> -->
+              </div>
+              <img src="./images/intro/Group 59.png" alt="" class="img-fluid">  
+            </div>
+            <div class="col-md-6 intros">
+              <h1 class="display-2">
+                <span class="display-2--intro">the official</span><br>
+                <span class="display-2--name">D'Tigress</span><br>
+                <span class="display-2--description">
+                  Sed ut perspiciatis unde omnis iste natus error 
+                  sit voluptatem accusantium doloremque laudantium, 
+                  totam rem aperiam, eaque ipsa quae ab illo inventore 
+                  veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                </span>
+              </h1>
+              <button type="button" class="btn-rounded--news">News & Events
+              </button>
+              <button type="button" class="btn-rounded--visit ">Visit Our Shop
+              </button>
+            </div> 
+              
+                
+            </div>
+           
+          </div>
+        
+      </section>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
