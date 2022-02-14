@@ -1,0 +1,12 @@
+@use "../custom" as *;
+@use '../components/mixins' as *;
+
+.t-photo{
+    text-align: center;
+    position: relative; 
+    max-width: 100%;
+
+
+    margin: 0 6rem 2rem 0;
+    // padding: 0 0 rem 0;
+}

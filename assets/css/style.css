@@ -11139,42 +11139,55 @@ textarea.form-control-lg {
 .btn-rounded--visit {
   background-color: #B1D2A8;
   padding: 0.4rem 1.2rem;
-  font-weight: 500;
+  font-weight: 600;
   margin-left: 1rem;
   border: 0.1rem solid rgba(255, 255, 255, 0.1);
   border-radius: 6px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   color: white;
+  font-family: "Raleway", sans-serif;
 }
 
 .btn-rounded--news {
   background-color: #B1D2A8;
   padding: 0.4rem 1.2rem;
-  font-weight: 500;
-  margin-left: 1rem;
+  font-weight: 600;
+  margin-left: 0;
   border: 0.1rem solid rgba(255, 255, 255, 0.1);
   background-color: #fff;
   border-radius: 6px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Raleway", sans-serif;
 }
 
-.display-2 {
+.t-button {
+  background-color: #17431B;
+  width: 200px;
+  height: 55px;
+  color: #fff;
+  border-radius: 6px;
+  border: 0.1rem solid rgba(255, 255, 255, 0.1);
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+
+.display-1 {
   margin-bottom: 1rem;
   text-transform: capitalize;
   color: white;
 }
-.display-2--intro {
+.display-1--intro {
   display: inline-block;
   font-weight: 200;
   font-family: "Raleway", sans-serif;
   font-size: 24px;
 }
-.display-2--name {
+.display-1--name {
   font-family: "Playfair Display", serif;
   font-size: 72px;
   text-transform: uppercase;
 }
-.display-2--description {
+.display-1--description {
   font-size: 1rem;
   display: block;
   font-family: "Raleway", sans-serif;
@@ -11186,7 +11199,16 @@ textarea.form-control-lg {
   left: 695px;
 }
 
-/* Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. */
+.display-2--small {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+}
+.display-2--large {
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  text-transform: capitalize;
+}
+
 .banner {
   background-color: #B1D2A8;
   padding: 30px 30px;
@@ -11196,7 +11218,7 @@ textarea.form-control-lg {
   background-color: #17431B;
   padding: 5rem 0 0 0;
   width: 100%;
-  height: 100%;
+  max-height: 100%;
 }
 .intro-section .intros {
   position: relative;
@@ -11228,6 +11250,13 @@ textarea.form-control-lg {
 .menu .login {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
+}
+
+.t-photo {
+  text-align: center;
+  position: relative;
+  max-width: 100%;
+  margin: 0 6rem 2rem 0;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -5,7 +5,7 @@
     @include green-bg;
     padding: 5rem 0 0 0;
     width: 100%;
-    height: 100%;
+    max-height: 100%;
 
     .intros{
         position: relative;
@@ -15,7 +15,6 @@
             width: 962px;
             height: 642px;
             left: -105px;
-
         }
     }
 }
