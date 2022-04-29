@@ -11202,6 +11202,7 @@ textarea.form-control-lg {
 .display-2--small {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
+  text-transform: uppercase;
 }
 .display-2--large {
   font-family: "Playfair Display", serif;
@@ -11255,6 +11256,7 @@ textarea.form-control-lg {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 9px;
+  margin-bottom: 0.7rem;
 }
 .merch .rating .stars {
   font-size: 11px;
@@ -11270,8 +11272,9 @@ textarea.form-control-lg {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 11px;
-  padding: 4px 1px;
+  margin-top: 1rem;
   background-color: #fff;
+  padding: 0.5rem;
   border: none;
   color: black;
 }
