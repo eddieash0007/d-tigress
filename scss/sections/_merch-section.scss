@@ -1,2 +1,60 @@
 @use "../custom" as *;
 @use '../components/mixins' as *;
+
+.merch{
+    background-color: $light-green;
+    padding: 30px 30px;
+    .banner1{
+        background-color: $light-green;
+        position: absolute;
+        right: 5%;
+        padding: 0.2rem 0.4rem;
+        border-radius: 0.2rem;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+    }
+    .title1{
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        text-align: center;
+    }
+        
+        .rating{
+            font-family: 'Raleway', sans-serif;
+            font-weight: 400;
+            font-size: 9px;
+            
+            .stars{
+                font-size: 11px; 
+                margin-right: 0;
+            }
+           
+        }
+        
+    
+    
+    .description1{
+        font-family: 'Raleway', sans-serif;
+        font-weight: 200;
+        font-size: 12px;
+        text-align: center;
+    }
+    .merch-btn{
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        font-size: 11px;
+        padding: 4px 1px;
+        background-color: $white;
+        border: none;
+        color: black;
+        
+        &:hover{
+            border-style: solid;
+            color: $gray-600;
+            border-radius: 0.2rem;
+        }
+    }
+
+}

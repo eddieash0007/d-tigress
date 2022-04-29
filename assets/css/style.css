@@ -11231,6 +11231,56 @@ textarea.form-control-lg {
   left: -105px;
 }
 
+.merch {
+  background-color: #B1D2A8;
+  padding: 30px 30px;
+}
+.merch .banner1 {
+  background-color: #B1D2A8;
+  position: absolute;
+  right: 5%;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.2rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+}
+.merch .title1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+}
+.merch .rating {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 9px;
+}
+.merch .rating .stars {
+  font-size: 11px;
+  margin-right: 0;
+}
+.merch .description1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  font-size: 12px;
+  text-align: center;
+}
+.merch .merch-btn {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 11px;
+  padding: 4px 1px;
+  background-color: #fff;
+  border: none;
+  color: black;
+}
+.merch .merch-btn:hover {
+  border-style: solid;
+  color: #6c757d;
+  border-radius: 0.2rem;
+}
+
 .menu {
   background-color: #17431B;
 }
